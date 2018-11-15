@@ -1,0 +1,152 @@
+#j_cate {
+	width: 190px;
+	height: 480px;
+	position: relative;
+	z-index: 20;
+}
+
+.cate_menu {
+	padding: 10px 0;
+	color: #999;
+}
+
+.cate_menu_line{
+	font-size: 12px;
+	color: #999;
+}
+
+
+
+.cate_menu_item {
+	padding-left: 18px;
+	width: 172px;
+	height: 27px;
+	line-height: 27px;
+}
+
+.cate_item_lnk {
+	font-size: 14px;
+	color: #626262;
+}
+
+.cate_item_lnk:hover {
+	color: #e33333;
+}
+
+ul.cate_menu li.menu_item_on {
+	background-color: #d9d9d9;
+}
+
+div.menu_items_panel {
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 190px;
+	top: 0px;
+	height: 560px;
+	border: 1px solid #f7f7f7;
+	box-shadow: 2px 0 5px rgba(0, 0, 0, .3);
+	background-color: #fff;
+	display: none;
+}
+
+div.cate_item {
+	display: none;
+	width: 900px;
+	height: 480px;
+	padding: 20px 0 10px;
+	/*background-color: #00FFFF;*/
+}
+
+
+/*div.cate_item:hover {
+	display: block;
+}*/
+
+
+/*弹出层子容器的样式*/
+
+.cate_part_col1,
+.cate_part_col2 {
+	float: left;
+}
+
+
+/*.cate_part_col1 {
+	width: 680px;
+}
+
+.cate_part_col2 {
+	width: 198px;
+}*/
+
+.cate_channel {
+	padding-left: 20px;
+	height: 24px;
+	overflow: hidden;
+}
+
+.cate_detail {
+	padding: 10px 0 0 20px;
+	overflow: hidden;
+}
+
+.cate_channel .cate_channel_lk {
+	float: left;
+	margin-right: 10px;
+	padding: 0 10px;
+	height: 24px;
+	background-color: #333;
+	line-height: 24px;
+	color: #fff;
+	font-size: 12px;
+}
+
+.cate_detail a {
+	font-size: 10px;
+}
+
+.cate_detail_item {
+	position: relative;
+	/*padding-left: 70px;*/
+	padding: 5px 0 0 90px;
+}
+
+.cate_detail_tit {
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 80px;
+	text-align: right;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.cate_detail_tit:after {
+	content: "|";
+	color: #D9D9D9;
+	font-weight: 100;
+	padding-left: 20px;
+}
+
+.cate_brand {
+	margin: 0 auto;
+	width: 168px;
+}
+
+.cate_brand .cate_brand_lnk {
+	overflow: hidden;
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	margin: 0 auto;
+	background-color: #e7e7e7;
+}
+
+.cate_promotion {
+	margin: 10px auto;
+	width: 168px;
+}
+
+
+/*菜单样式结束*/

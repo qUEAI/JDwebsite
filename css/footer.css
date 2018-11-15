@@ -1,0 +1,134 @@
+*{
+	list-style: none;
+}
+#service-2017{
+	padding-bottom: 18px;
+    background: #eaeaea;
+    overflow: hidden;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.fw{
+	width: 990px;
+	margin: 0 auto;
+	
+}
+
+#service-2017 .slogen {
+    position: relative;
+    height: 42px;
+    padding: 30px 0 30px 55px;
+    overflow: hidden;
+}
+
+#service-2017 .slogen .item {
+    float: left;
+    position: relative;
+    width: 224px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    font-weight: 700;
+    text-indent: 46px;
+    color: #444;
+}
+
+#service-2017 .slogen .item i {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 42px;
+    text-indent: -9999px;
+    background-image: url(../img/common/ico_service.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+#service-2017 .slogen .fore2 i {
+    background-position: 0 -43px;
+}
+
+#service-2017 .slogen .fore3 i {
+    background-position: 0 -86px;
+}
+
+#service-2017 .slogen .fore4 i {
+    background-position: 0 -129px;
+}
+
+#footer-2017{
+	
+}
+
+#service-2017 .jd-help {
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+}
+
+#service-2017 .wrap {
+    padding: 20px 0 20px 55px;
+    margin-right: -340px;
+}
+
+#service-2017 .jd-help dl {
+    width: 206px;
+    line-height: 22px;
+}
+
+
+
+#service-2017 dl {
+    float: left;
+}
+
+#service-2017 dt {
+    padding-bottom: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #777;
+    height: 22px;
+}
+
+#service-2017 dd {
+    font-size: 12px;
+    color: #666;
+    height: 22px;
+    overflow: hidden;
+}
+
+#service-2017 dl a {
+    color: #666;
+    text-decoration: none;
+}
+
+#service-2017 dl a:hover {
+    color: #FF0000;
+}
+
+
+#footer-2017 {
+    padding-bottom: 30px;
+    background: #eaeaea;
+    text-align: center;
+}
+
+#footer-2017 a {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+#footer-2017 .copyright_split {
+    margin: 0 6px;
+    color: #ccc;
+}
+
+#footer-2017 .copyright_info {
+    padding: 10px 0;
+    line-height: 22px;
+    font-size: 12px;
+    color: #999;
+}

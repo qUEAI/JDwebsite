@@ -1,0 +1,130 @@
+	*{
+			list-style: none;
+		}
+		#box{
+			width: 1200px;
+			height: 275px;
+			margin:0px auto;
+			margin-top:40px;
+		}
+		#box ul li{
+			float: left;
+		}
+		#box ul .box_left{
+			width: 190px;
+			height: 255px;
+			background-color: red;
+			padding: 10px;
+			text-align: center;
+		}
+		#box ul .box_left .box_top{
+			font-size: 30px;
+			color: white;
+			border-right-color: aqua;
+			margin: 0;
+		}
+		#box ul .box_left .box_bottom{
+			font-size: 20px;
+			color: pink;
+			margin: 0;
+			/*padding: 0;*/
+		}
+		#box ul .box_left .box_light{
+			display: inline-block;
+			width: 30px;
+			height: 45px;
+			background: url(../img/shandian.png) no-repeat;
+			margin-top: 30px;
+		}
+		#box ul .box_left .box_text{
+			color: white;
+		}
+		#box ul .box_pic{
+			width: 788px;
+			height: 275px;
+		}
+		#box ul .box_pic ul li{
+			margin-right: 5px;
+		}
+		#box ul .box_righ{
+			width: 200px;
+			height: 275px;
+			/*background-color:beige;*/
+		}
+		#box ul .box_righ span{
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			overflow: hidden;
+			position: relative;
+			top: -45px;
+			left: 85px;
+		}
+		#box ul .box_time{
+			margin-top: 20px;
+			margin-left: 25px;
+		}
+		
+		#box ul .box_time li span{
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 20px;
+			font-weight: 1000;
+			background-color:#000000;
+			color: white;
+			margin-right: 10px;
+		}
+
+.box_pic .hot_goods_body ul {
+	overflow: hidden;
+}
+
+.box_pic .hot_goods_body ul li {
+	width: 190px;
+	height: 275px;
+	background: white;
+	float: left;
+}
+.box_pic .hot_goods_body img {
+	width: 140px;
+	height: 140px;
+	display: block;
+	margin: 0px auto;
+}
+.box_pic .hot_goods_body a{
+	text-decoration:none; 
+	
+}
+.box_pic .hot_goods_body a p {
+	color: #6C6C6C;
+	font-size: 20px;
+	padding: 10px 3px;
+	margin-bottom: 5px;
+	text-align: center;
+	
+}
+.box_pic .hot_goods_body a p:hover{
+	color: red;
+}
+.yuan {
+	color: #FF4400;
+	font-size: 10px;
+	margin-left: 60px;
+}
+
+.price {
+	color: #FF4400;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.hot_goods_pirce_old .yuan{
+	color: #AAAAAA;
+
+}
+.hot_goods_pirce_old .price{
+	color: #AAAAAA;
+	text-decoration:line-through;
+}

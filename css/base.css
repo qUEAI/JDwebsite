@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.red{
+	color: #FF0000;
+}
+
+a.red{
+	color: #FF0000;
+}
+
+*{
+	border:0;padding:0;margin:0;text-decoration:none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+input{
+	outline: none;
+}

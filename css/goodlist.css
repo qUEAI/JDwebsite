@@ -1,0 +1,68 @@
+
+.yuan {
+	color: #FF4400;
+	font-size: 10px;
+	margin-left: 60px;
+}
+
+.price {
+	color: #FF4400;
+	font-weight: bold;
+	margin-left: 5px;
+}
+#hot_goods {
+	width: 1200px;
+	margin: 10px auto;
+}
+
+#hot_goods h3 {
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	color: #ff242d;
+	padding-left: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	background: white;
+}
+
+#hot_goods .hot_goods_body {}
+
+#hot_goods .hot_goods_body ul {
+	overflow: hidden;
+}
+
+#hot_goods .hot_goods_body ul li {
+	width: 236px;
+	height: 315px;
+	background: white;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+
+/*选择第几个元素 5n就是选择5的倍数*/
+
+#hot_goods .hot_goods_body ul li:nth-child(5n) {
+	margin-right: 0px;
+}
+
+#hot_goods .hot_goods_body img {
+	width: 220px;
+	height: 200px;
+	display: block;
+	margin: 0px auto;
+}
+
+#hot_goods .hot_goods_body a p {
+	color: #6C6C6C;
+	font-size: 15px;
+	padding: 10px 3px;
+	margin-bottom: 5px;
+	text-align: center;
+	width: auto;
+	height: 25px;
+}
+#hot_goods .hot_goods_body a p:hover{
+	color: red;
+}

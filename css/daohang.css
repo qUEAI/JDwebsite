@@ -1,0 +1,40 @@
+ul.menu_list li{
+	width: 100px;
+}
+
+ul.menu_list li.menu_item_on{
+	background-color: #FF0000;
+	opacity: 0.5;	
+}
+
+ul.menu_list li.menu_item_on a.menu_item_a{
+	color: #fff;
+}
+
+/*包含absolute定位的外层容器样式*/
+div#my_menu{
+	position: relative;
+}
+
+div.menu_items_panel{
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 100px;
+	top:0px;
+	width: 400px;
+	height: 300px;
+	border: 1px solid #FF0000;
+	display: none;
+}
+
+div.cate_item{
+	display: none;	
+}
+
+#test_head{
+	height: 100px;
+}
+
+div#test_panel{
+	height: 600px;
+}

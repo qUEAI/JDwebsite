@@ -1,0 +1,143 @@
+*{
+			list-style: none;
+		}
+		.jd_paiBox{
+			width: 1200px;
+			height: 415px;
+			background-color: white;
+			margin:0px auto;
+		}
+		.jd_paiBox_left, .jd_paiBox_mid, .jd_paiBox_right{
+			float: left;
+		}
+		.jd_paiBox_left{
+			width: 390px;
+			height: 415px;
+			margin: 20px;
+		}
+		.jd_paiBox_mid{
+			width: 390px;
+			height: 415px;
+		}
+		.jd_paiBox_right{
+			width: 350px;
+			height: 415px;
+		}
+		#jd_paihang{
+			width: 390px;
+			height: 415px;
+		}
+		.jd_head{
+			width: 390px;
+			height: 60px;
+			padding-left: 20px;
+		}
+		.jd_head a{
+			display: inline-block;
+		    /*position: relative;*/
+		    height: 40px;
+		    margin: 8px 0 0 0;
+			text-decoration: none;
+			text-align: center;
+		}
+		.jd_head .jd_head_text{
+		    float: left;
+		    font-weight: normal;
+		    font-size: 22px;
+		    color: #222;
+		    line-height: 44px;
+		    margin: 0px;
+		}
+		.jd_head .jd_head_pic{
+			width: 23px;
+			height: 23px;
+			float: left;
+			background-image: url(../img/jiantou.png);
+			position: relative;
+			top: 11px;
+			left: 4px;
+		}
+		.jd_head .jd_head_you{
+			width: 112px;
+			height: 20px;
+			float: left;
+			font-size: 14px;
+			color: #999;
+			line-height: 20px;
+    		margin: 12px 0 0 10px;
+		}
+		.jd_daohang ul{
+			height: 34px;
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+			line-height: 34px;
+			background: #f7f7f7;
+			font-size: 10px;
+			color: darkgray;
+		}
+		.jd_daohang ul li{
+			width: 78px;
+			height: 34px;
+			float: left;
+			cursor: pointer;
+		}
+		
+		.jd_footer_ul{
+			margin: 0px;
+			padding: 0px;
+			width: 390px;
+			height: 321px;
+			overflow: hidden;
+		}
+		.jd_footer{
+			height: 107px;
+			cursor: pointer;
+		}
+		.jd_footer:hover{
+			color: red;
+		}
+		.jd_footer .jd_footer_pic{
+			float: left;
+		    width: 80px;
+		    height: 80px;
+		    margin-top: 15px;
+		}
+		.jd_footer .jd_footer_font{
+			float: left;
+		    width: 30px;
+		    height: 40px;
+		    margin: 36px 0 0 10px;
+		    line-height: 40px;
+		    font-size: 32px;
+		    text-align: center;
+		    font-family: 'impact';
+		}
+		.jd_footer .jd_footer_text{
+		    display: block;
+		    margin-left: 125px;
+		    padding-top: 40px;
+		    height: 32px;
+		    line-height: 16px;
+		    font-size: 12px;
+		    overflow: hidden;
+		    color: #333;
+		}
+		.jd_footer_text:hover{
+			color: red;
+		}
+		.jd_paiBox_mid_top{
+			display: block;
+			text-align: center;
+		}
+		.jd_paiBox_mid_bot{
+			width: 390px;
+			height: 185px;
+		}
+		.jd_paiBox_mid_bot a{
+			text-align: center;
+		}
+		.jd_paiBox_mid_bot_left{
+			margin-left: 20px;
+			margin-right: 5px;
+		}
